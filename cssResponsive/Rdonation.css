@@ -1,0 +1,68 @@
+:root {
+  --turquoise: #00d38e;
+  --forest: #193129;
+  --limeGreen: #c7e995;
+  --brightGreen: #01863c;
+  --bg: #01120c;
+  --dark-fontcolor: #01120c;
+  --light-fontcolor: #ffffff;
+  font-size: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  overflow: scroll; /* Change this to allow scrolling */
+    overflow-x: hidden;
+}
+
+@media screen and (max-width: 1020px) {
+  .Payment .paymentOption{
+    transform: scale(0.85);
+    margin-top: 0px;
+  }
+  .Payment h1{
+    margin-top: 10%;
+    font-size: 40px;
+    font-weight: normal;
+    color: white;
+  }
+
+  .Payment h5{
+    font-size: 15px;
+    font-weight: normal;
+    color: rgba(255, 255, 255, 0.61);
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .Peyment{
+    padding: 0;
+  }
+  .Payment .paymentOption{
+    margin-top: 0px;
+    transform: scale(0.7);
+  }
+  .Payment h1{
+    margin-top: 10%;
+    font-size: 35px;
+    font-weight: normal;
+    color: white;
+  }
+
+  .Payment h5{
+    font-size: 12px;
+    font-weight: normal;
+    color: rgba(255, 255, 255, 0.61);
+  }
+}
