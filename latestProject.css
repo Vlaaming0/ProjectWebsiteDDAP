@@ -1,0 +1,387 @@
+
+.latestProject {
+  width: 100%;
+  height: 1500px;
+  position: relative;
+  z-index: 0; 
+  display: flex;
+  justify-content: center;
+  padding-top: 5%;
+}
+
+.latestProject .container{
+  position: absolute;
+  width: 1920px;
+  height: 100%;
+  overflow-x: hidden;
+  z-index: 0;
+}
+
+.latestProject .title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 10;
+}
+.latestProject .title p {
+  font-size: 4.091rem;
+  font-weight: bold;
+  padding: 2.5rem 3.063rem;
+  text-align: center;
+  background-color: #196966;
+  border-radius: 1.875rem;
+  z-index: 10;
+}
+
+.latestProject .desc3 {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  left: 8.4375%;
+  top: 7.188rem;
+  width: 31.438rem;
+  height: 14.875rem;
+  background-color: white;
+  padding: 0 2.5rem;
+  border-radius: 2.5rem;
+}
+
+.latestProject .desc3 p {
+  font-size: 1.586rem;
+  text-align: justify;
+  font-weight: 550;
+}
+
+.latestProject .project3 {
+  top: 13.938rem;
+  left: 8.4375%;
+  width: 22.938rem;
+  height: 22.625rem;
+  position: relative; 
+  overflow: hidden; 
+  border-radius: 2.813rem;
+  border: #BDFFE9 solid 0.188rem;
+}
+
+.latestProject .project3 img {
+  width: 22.938rem;
+  height: 22.625rem;
+  object-fit: cover;
+  object-position: center;
+}
+
+.latestProject .project3 .date{
+  z-index: 999;
+  position: absolute;
+  color: white;
+  top: 1.875rem;
+  right: 1.25rem;
+}
+
+.latestProject .project3 .num3 {
+  background-color: #47FEC2;
+  color: black;
+  padding: 0.5rem 0.625rem;
+  font-size: 1.375rem;
+  border-radius: 1.875rem;
+  z-index: 999;
+  position: absolute;
+  left: 1.25rem;
+  top: 1.25rem; 
+}
+
+.latestProject .project3 .title {
+  width: 70%;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  font-size: 2.813rem;
+  border-radius: 1.875rem;
+  z-index: 999;
+  position: absolute;
+  left: 1.25rem;
+  bottom: 1.25rem; 
+}
+
+.latestProject .blank3{
+  position: absolute;
+  width: 10.375rem;
+  height: 5.5rem;
+  top: 26.75rem;
+  left: 28.69791%;
+  background-color: #66F9C9;
+  border-radius: 1.25rem;
+}
+
+.latestProject .location3{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  width: 10.375rem;
+  height: 15.75rem;
+  left: 28.69791%;
+  top: 33.5rem;
+  justify-content: center;
+  padding: 1.25rem 0.938rem;
+  background: linear-gradient(0deg, #071D1D, #1F8383);
+  border-radius: 1.25rem;
+}
+
+.latestProject .location3 p{
+  font-size: 1.278rem;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  line-height: 1.688rem;
+}
+
+.latestProject .project1{
+  position: absolute;
+  left: 38.4895833%;
+  top: 17.5rem;
+  width: 27.063rem;
+  padding-bottom: 1.875rem;
+  background-color: white;
+  border-radius: 2.5rem;
+  overflow: hidden;
+}
+
+.latestProject .project1 img{
+  position: relative;
+  width: 27.063rem;
+  height: 18.75rem;
+  object-fit: cover;
+  object-position: center;
+}
+
+.latestProject .project1 .num1{
+  background-color: #47FEC2;
+  color: black;
+  padding: 0.5rem 0.625rem;
+  font-size: 1.375rem;
+  border-radius: 1.875rem;
+  z-index: 999;
+  position: absolute;
+  top: 1.25rem;
+  right: 1.25rem;
+}
+
+.latestProject .project1 .content1{
+  width: 100%;
+  padding: 1.25rem 1.875rem;
+}
+
+.latestProject .project1 .content1 .date{
+  font-size: 1rem;
+}
+
+.latestProject .project1 .content1 .title{
+  font-size: 1.875rem;
+  font-weight: 600;
+  line-height: 2.5rem;
+  margin: 0.625rem 0 0.938rem 0;
+}
+
+.latestProject .desc2{
+  background: linear-gradient(250deg, #071D1D, #1F8383);
+  display: flex;
+  align-items: center;
+  position: absolute;
+  width: 25.625rem;
+  height: 9.813rem;
+  top: 11.438rem;
+  left: 74.688rem;
+  padding: 0 1.875rem;
+  border-radius: 1.563rem;
+}
+
+.latestProject .desc2 p{
+  font-size: 1.479rem;
+  font-weight: bold;
+  line-height: 1.875rem;
+}
+
+.latestProject .project2{
+  position: absolute;
+  width: 25.625rem;
+  height: 19.188rem;
+  top: 22.438rem;
+  left: 74.688rem;
+  background: linear-gradient(70deg, #000E09, #47FEC2);
+  border: solid #66F9C9 0.188rem;
+  border-radius: 1.875rem;
+  overflow: hidden;
+}
+
+.latestProject .project2 .content2{
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+  left: 1.563rem;
+}
+
+.latestProject .project2 .content2 .num2{
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 0.5rem 0.625rem;
+  font-size: 1.375rem;
+  border-radius: 1.875rem;
+  z-index: 999;
+  position: absolute;
+  top: 1.563rem;
+}
+
+.latestProject .project2 .content2 .date{
+  position: relative;
+  font-size: 0.853rem;
+  color: white;
+  top: 7.5rem;
+}
+
+.latestProject .project2 .content2 .title{
+  position: relative;
+  font-size: 1.997rem;
+  font-weight: bold;
+  color: white;
+  top: 8.125rem;
+}
+
+.latestProject .project2 .content2 .location2{
+  position: relative;
+  font-size: 1.063rem;
+  font-weight: 200;
+  color: white;
+  top: 8.75rem;
+}
+
+.latestProject .project2 img{
+  width: 9.375rem;
+  height: 18.75rem;
+  object-fit: cover;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.latestProject .project2 button{
+  position: absolute;
+  background-color: #3ED7A6;
+  border: none;
+  width: 3.375rem;
+  height: 3.375rem;
+  border-radius: 1.688rem;
+  top: 1.25rem;
+  right: 1.25rem;
+  transition: background-color .2s;
+}
+
+.latestProject .project2 button:hover{
+  background-color:#196966;
+}
+
+.latestProject .blank2{
+  position: absolute;
+  left: 74.688rem;
+  top: 44.75rem;
+  width: 3.438rem;
+  height: 7.125rem;
+  background-color: #65B89D;
+  border-radius: 1.563rem;
+}
+
+.latestProject .environment{
+  position: absolute;
+  width: 29.43rem;
+  height: 7.125rem;
+  left: 79.32rem;
+  top: 43rem;
+  background: linear-gradient(70deg, #071d1d, #47FEC2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid #66F9C9 0.188rem;
+  border-radius: 2.188rem;
+}
+
+.latestProject .environment p{
+  font-size: 2.214rem;
+  font-weight: bold;
+  color: white;
+}
+
+.latestProject .desc2Detail{
+  display: flex;
+  align-items: center;
+  background-color: white;
+  position: absolute;
+  width: 7.063rem;
+  height: 30.125rem;
+  left: 102.813rem;
+  top: 9.375rem;
+  border-radius: 2.188rem;
+}
+
+.latestProject .desc2Detail p{
+  padding: 0 0.938rem;
+  font-size: 1.063rem;
+  text-align: justify;
+  line-height: 1.688rem;
+}
+
+.latestProject .button {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  top: 65rem;
+  left: 50%;
+  /* transform: translateX(-50%); */
+  flex-direction: column;
+  margin: 0px;
+}
+
+.latestProject .button button{
+  background-color: #ffffff;
+  border: none;
+  width: 3.375rem;
+  height: 3.375rem;
+  border-radius: 1.688rem;
+  transition: background-color .2s;
+  transform: translateX(-50%);
+  margin-bottom: 1.25rem;
+}
+
+.latestProject .button button:hover{
+  background-color: #66F9C9;
+}
+
+.latestProject .slider{
+  display: flex;
+  align-items: center;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.latestProject .slider .slider-dot {
+  background-color: white;
+  width: 1rem;
+  height: 1rem;
+  margin: 0 0.438rem;
+  border-radius: 50%;
+  opacity: .4;
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+.latestProject .slider .slider-dot.active {
+  width: 1.25rem;
+  height: 1.25rem;
+  opacity: 1;
+  transform: scale(1.25);
+}
+
+/* animate */
+
+.latestProject .project1 #img1,
+.latestProject .project2 #img2,
+.latestProject .project3 #img3 {
+  transition: transform 0.5s ease, opacity 0.5s ease; /* Added opacity transition */
+}

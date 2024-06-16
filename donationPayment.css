@@ -1,0 +1,152 @@
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  background-image: url(assets/background/background.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.Payment{
+  width: 100%;
+  padding: 5% 0 10% 0;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  animation: transitionIn 0.75s;
+}
+
+.paymentOption{
+  margin-top: 4%;
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  border: solid;
+  border-color: white;
+  border-width: 3px;
+  background-color: rgba(255, 255, 255, 0.35);
+  border-radius: 40px;
+  backdrop-filter: blur(20px); 
+  -webkit-backdrop-filter: blur(20px);
+}
+
+.Payment h1,h6{
+  color: white;
+}
+
+.Payment h1{
+  font-size: 45px;
+  font-weight: normal;
+}
+
+.Payment h5{
+  font-size: 20px;
+  font-weight: normal;
+  color: rgba(255, 255, 255, 0.61);
+}
+
+.Payment h6{
+  font-size: 16px;
+  font-weight: normal;
+  margin-bottom: 12px;
+  margin-top: 12px;
+}
+
+.bank{
+
+  background-color: white;
+  height: 45px;
+  margin-bottom: 2.5%;
+  width: 65%;
+  display: flex;
+  font-size: 20px;
+  align-items: center;
+  padding-left: 3%;
+  padding-right: 3%;
+  border: none;
+  border-radius: 30px;
+  filter: brightness(1);
+  transition: filter .15s;
+}
+
+.bank:hover{
+  filter: brightness(.8);
+  cursor: pointer;
+}
+.bank.active{
+
+  filter: brightness(1);
+}
+
+.bank.inactive {
+  filter: brightness(.7);
+}
+
+.bank img{
+  width: 60px;
+  object-fit: cover;
+}
+
+.bank #imgMandiri{
+  height: 35px;
+}
+
+.bank #imgBCA, #imgBNI, #imgGopay, #imgShopeepay, #imgOVO, #imgDana{
+  padding-top: 3px;
+}
+
+.bank #imgShopeepay{
+  padding-top: 3px;
+}
+
+.bank .bankName{
+  padding-left: 5%;
+  font-size: 14px;
+}
+
+.btnDonate{
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+  width: 45%;
+  height: 3.63rem;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  text-align: center;
+  font-size: 17px;
+  border: none;
+  background-color: #47FEC2;
+  border-radius: 6.6rem;
+  transition: background-color .1s;
+}
+
+.Arrow{
+  padding-top: 5px;
+}
+
+.btnDonate:hover{
+  background-color: #00d38e;
+}
+
+.btnDonate:active{
+  background-color: #0a9466;
+}
+
+@keyframes transitionIn {
+  from {
+      opacity: 0;
+      transform: translateY(10px);
+  }
+  to{
+      opacity: 1;
+      transform: translateY(0); 
+  }
+}

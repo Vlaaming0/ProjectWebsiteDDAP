@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="css/aboutus.css">
+        <link rel="stylesheet" href="css/contact.css">
+        <link rel="stylesheet" href="css/home.css">
+        <link rel="stylesheet" href="css/merch.css">
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/volunteer.css">
+        <link rel="stylesheet" href="css/achiev.css">
+        <link rel="stylesheet" href="css/project.css">
+        <link rel="stylesheet" href="css/footer.css">
+        <link rel="stylesheet" href="latestProject.css">
+        <link rel="stylesheet" href="donationAccount.css">
+        <link rel="stylesheet" href="cssResponsive/responsiveHeader.css">
+        <link rel="stylesheet" href="cssResponsive/responsiveHome.css">
+        <link rel="stylesheet" href="cssResponsive/responsive.css">
+        <link rel="stylesheet" href="cssResponsive/responsiveHome.css">
+        <link rel="stylesheet" href="cssResponsive/responsiveLatestProject.css">
+        <link rel="stylesheet" href="cssResponsive/responsiveFooter.css">
+        <link rel="stylesheet" href="cssResponsive/responsiveMerch.css">
+        <link rel="stylesheet" href="cssResponsive/Rdonation.css">
+        <script src="https://kit.fontawesome.com/fbf7159c7e.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!-- NAVBAR START -->
+        <header class="header" id="header">
+            <a href="#" class="logo">
+                <img class="logoImg" src="assets/nav/Logo - Pandawara.png" alt="logo""> 
+          </a> 
+
+          <nav class=" navbar">
+                <a href="index.html#acievmentcontent" class="hideMobile">About Us</a>
+                <a href="index.html#latestProject" class="hideMobile">Projects</a>
+                <a href="index.html#merchcontent" class="hideMobile">Merch</a>
+                <a href="index.html#contactUs" class="hideMobile">Contact Us</a>
+                <a href="donationIdentity.html" class="hideMobile">Donation</a>
+                <li onclick="showSideBar()" class="burger"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24px"
+                            viewBox="0 -960 960 960" width="24px" fill="#ffffff">
+                            <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                        </svg></a></li>
+                </nav>
+
+                <nav class="sidebar">
+                    <li class="close" onclick="hideSideBar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg"
+                                height="24px" viewBox="0 -960 960 960" width="24px" fill="#ffffff">
+                                <path
+                                    d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                            </svg></a></li>
+                    <li><a href="index.html#homecontent">Home</a></li>
+                    <li><a href="index.html#acievmentcontent">About Us</a></li>
+                    <li><a href="index.html#latestProject">Projects</a></li>
+                    <li><a href="index.html#merchcontent">Merch</a></li>
+                    <li><a href="index.html#contactUs">Contact Us</a></li>
+                    <li><a href="donationIdentity.html">Donation</a></li>
+                </nav>
+
+        </header>
+
+        <!-- NAVBAR END -->
+
+        <section class="Payment" id="payment">
+            <h1>Donation</h1>
+            <h5>Make a difference today!</h5>
+            <div class="paymentOption">
+                <h6>Summary</h6>
+                <input class="donateTime" type="text" id="donateTime" name="donateTime" placeholder="Donate Before : dd/mm/yy at 00:00 XM" readonly>
+                <h6 id="virtualAccountTitle">XX Virtual Account</h6>
+                <input class="inputVirtualNumber" type="text" name=inputVirtualNumber" placeholder="XXXXXXXXXXXXXXXX">
+                <p>*Check you E-mail for Payment Instruction</p>
+                <div class="totalDonation">
+                    <p>Total Donation</p>
+                    <p class="totalAmount">IDR XXXXXX</p>
+                    </div>
+                <hr width="85%" color="ffffff" size="1">
+                <a href="index.html" class="btnDonate">
+                        Check Status
+                    <div>
+                        <svg  class="Arrow" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000"><path d="M647-440H160v-80h487L423-744l57-56 320 320-320 320-57-56 224-224Z"/></svg>
+                    </div>
+
+                </a>
+            </div>
+
+        </section>
+
+        <!-- CONTACT US START -->
+        <section class="contactUs" id="contactUs">
+            <div class="contactLeft">
+                <h5>Contact Us</h5>
+                <h1>Connect With Us</h1>
+                <p>Get the latest updates, behind-the-scenes content, and inspiring stories from our environmental initiatives.  </p>
+                <div class="footerRef">
+                    <a href="index.html#acievmentcontent" class="plainButton">About Us</a>
+                    <a href="index.html#latestProject" class="plainButton">Project</a>
+                    <a href="index.html#merchcontent" class="plainButton">Merch</a>
+                    <a id="Donate" href="donationIdentity.html">Donation</a>
+                </div>
+                <h3>Follow us on:</h3>
+                <div class="icon">
+                    <button><a href="#" class="fa fa-facebook"></a></button>
+                    <button><a href="https://twitter.com/Pandawara01" class="fa fa-twitter" target="_blank"></a></button>
+                    <button><a href="https://www.instagram.com/pandawaragroup/" class="fa fa-instagram" target="_blank"></a></button>
+                    <button><a href="https://www.youtube.com/@pandawaragroup" class="fa fa-youtube" target="_blank"></a></button>
+                </div>
+            </div>
+            <div class="contactRight">
+                    <input class="Name" type="text" placeholder="Your Full Name">
+                    <input type="text" placeholder="Email Address">
+                    <input type="text" placeholder="Messages">
+                    <button><i class="material-icons">&#xe163;</i></button>
+            </div>
+        </section>
+        <!-- CONTACT END -->
+
+
+        <!-- FOOTER START -->
+        <footer>
+            <hr width="100%" color="000000" size="2">
+            <div class="leftFooter">
+                <p class="fPandawara">PANDAWARA GROUP INDONESIA</p>
+                <p class="fCopyright">Copyright &#169; Pandawara Group Indonesia 2024</p>
+            </div>
+        </footer>
+        <!-- FOOTER END -->
+        <script>
+            function formatDate(date) {
+                const options = { day: '2-digit', month: '2-digit', year: 'numeric', hour: '2-digit', minute: '2-digit' };
+                return date.toLocaleDateString('en-GB', options).replace(',', ' at');
+            }
+
+            function setDonateTime() {
+                const now = new Date();
+                const donateTime = new Date(now.getTime() + 24 * 60 * 60 * 1000); 
+                const formattedDate = formatDate(donateTime);
+                document.getElementById('donateTime').value = `Donate Before: ${formattedDate}`;
+            }
+
+
+            document.addEventListener('DOMContentLoaded', setDonateTime);
+
+            function showSideBar() {
+                const sidebar = document.querySelector('.sidebar');
+                sidebar.style.display = 'flex';
+            }
+
+            function hideSideBar() {
+                const sidebar = document.querySelector('.sidebar');
+                sidebar.style.display = 'none';
+            }
+        </script>
+
+
+
+    </body>
+</html>
