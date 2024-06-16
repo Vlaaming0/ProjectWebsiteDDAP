@@ -1,0 +1,123 @@
+:root {
+  --turquoise: #00d38e;
+  --forest: #193129;
+  --limeGreen: #c7e995;
+  --brightGreen: #01863c;
+  font-size: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+
+}
+
+body { 
+  
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  overflow: scroll; /* Change this to allow scrolling */
+  overflow-x: hidden;
+}
+
+.homecontent {
+  height: 68.875rem;
+  padding: 8.22rem 10.188rem 5rem 5.351rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  color: white;
+  /* background-color: black; */
+
+}
+
+/* .home-hero-image{
+  position: absolute;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background: linear-gradient(8.17deg, #01120C 35.77%, #00D38E 173.9%);
+
+} */
+
+.homecontent .motto {
+  line-height: 1.1;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  font-size: 5.729rem;
+  font-weight: 700;
+  z-index: 4;
+}
+
+.homecontent .sub-motto {
+
+  width:90%;
+  margin: 2.81rem 0 0 0;
+  font-size: 1.56rem;
+  font-weight: normal;
+  text-align: left;
+  z-index: 4;
+}
+
+.homecontent .sjoin {
+  margin: 2.13rem 0 2.24rem 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 1.25rem;
+  z-index: 3;
+}
+
+.homecontent .check {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 1rem;
+  height: 28px;
+  width: 28px;
+  background-color: #01863c;
+  border-radius: 14px;
+  font-size: 1.13rem;
+  z-index: 3;
+}
+
+.homecontent .pJoin {
+  margin: 0;
+  padding: 0;
+  font-size: 17px;
+  font-weight: 400;
+  z-index: 3;
+}
+
+.homecontent button{
+  display: flex;
+  align-items: center;
+  width: 16.06rem;
+  height: 3.63rem;
+  text-align: left;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-size: 17px;
+  color: white;
+  border: solid ;
+  border-color: white;
+  background-color: #81c8b18a;
+  border-radius: 6.6rem;
+  z-index: 3;
+}
+
+.homecontent button:hover{
+  background-color: var(--forest);
+  z-index: 3;
+}
+section button .Arrow{
+  margin-left: auto;
+  z-index: 3;
+}
+

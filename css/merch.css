@@ -1,0 +1,254 @@
+:root {
+  --turquoise: #00d38e;
+  --forest: #193129;
+  --limeGreen: #c7e995;
+  --brightGreen: #01863c;
+  font-size: 16px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+
+}
+
+body { 
+  max-width: 120rem;
+  background-color: #01120C;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  overflow-y: scroll; /* Change this to allow scrolling */
+  overflow-x: hidden;
+}
+
+.merchcontent {
+
+  position: relative;
+  width: 100%;
+  height: 54.563rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+
+.merchcontent .p-merch,
+.h1-merch {
+  width: 100%;
+  text-align: center;
+
+}
+
+.merchcontent .p-merch {
+  position: absolute;
+  align-items: center;
+  color: white;
+  font-size: 1.63rem;
+  top: 4.5rem;
+}
+
+.merchcontent .h1-merch {
+  position: absolute;
+  height: 4.06rem;
+  color: white;
+  font-size: 3.13rem;
+  top: 6.563rem;
+
+}
+
+.merchcontent .merch {
+  /* background-color: red; */
+  background-color: rgba(255, 255, 255, 0.286);
+  border: solid 3px white;
+  border-radius: 1.774rem;
+  height: 30.65rem;
+  width: 69.5rem;
+  position: absolute;
+  top: 13.5rem;
+  justify-content: space-evenly;
+  display: flex;
+  margin:2.688rem auto 0 auto;
+  /* align-items: center; */
+  /* z-index: 3; */
+}
+.merch-shape-1{
+  position: absolute;
+  left: -10.25rem;
+  top: -9rem;
+  z-index: 0;
+  backdrop-filter: blur(8px);
+}
+.merch-shape-2{
+  position: absolute;
+  bottom: -10.9rem;
+  right: -3.538rem;
+  backdrop-filter: blur(3px);
+}
+.merch-shape-3{
+  position: absolute;
+  right: -6.188rem;
+  top: -9.1rem;
+  z-index: 9999;
+
+}
+.merch-btn{
+  position: absolute;
+  width: 18.453rem;
+  height: 4.19rem;
+  bottom: -2.095rem;
+  background-color: white;
+  border-radius: 2.125rem;
+  text-align: center;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 1.228rem;
+  transition: .2s;
+}
+.merch-btn:hover{
+  background-color: var(--turquoise);
+  transition: .2s;
+}
+.merch-btn .button{
+  background-color: transparent;
+  width: 6.6rem;
+  border: none;
+  font-size: 1.289rem;
+  font-weight:600;
+  text-align: start;
+}
+
+.merch-like-icon{
+  position: absolute;
+  background-color: #00d38e;
+  right: 0.732rem;
+  top: 0.732rem;
+  width: 2.091rem;
+  height: 2.091rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+.merch-like-icon input{
+  display: none;
+}
+.like-icon{
+  stroke: white;
+}
+
+.merch-like-icon input:checked + .like-icon{
+  stroke: transparent;
+  fill: red;
+}
+
+.merch .merch-frame {
+  background-color: #ffffff;
+  width: 14.844rem;
+  height: 14.949rem;
+  border-radius: 1.046rem;
+  margin: 2.084rem 0 0 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.merch-container img{
+  height: 14.844em;
+  width: 14.844em;
+  border-radius: 1.046rem;
+
+
+}
+.merch-data{
+  box-sizing: border-box;
+  width: 13em;
+  background-color: var(--turquoise);
+  padding: 1.1rem 1.2rem;
+  box-shadow: 0 8px 24px var(--forest);
+  border-radius: 1.5rem;
+  position: absolute;
+  /* bottom: -4rem; */
+  bottom: -12rem;
+  right: 0;
+  left: 0;
+  margin-inline: auto;
+  opacity: 0;
+  transition: opacity 1s 1s;
+}
+
+.merch-title{
+  font-size: 1.869rem;
+  font-weight: 500;
+}
+
+.merch-description{
+  font-size: 1rem;
+  font-weight: 500;
+}
+.merch-price{
+  font-size: 1.5rem;
+  padding: 0.3rem 0 0;
+  font-weight: 700;
+}
+
+.merch-frame:hover .merch-data{
+  animation: show-data 1s forwards;
+  opacity: 1;
+  transition: opacity .3s;
+}
+
+.merch-frame:not(:hover) .merch-data{
+  animation: hide-data 1s forwards;
+  opacity: 0;
+  transform: opacity .3s;
+}
+.merch-frame:hover{
+  animation: remove-overflow 2s forwards;
+}
+.merch-frame:not(:hover){
+  animation: show-overflow .1s forwards;
+}
+@keyframes show-data{
+  50%{
+      transform: translateY(-12rem);
+  }
+  100%{
+      transform: translateY(-6rem);
+  }
+}
+@keyframes hide-data{
+  0%{
+      transform: translateY(-6rem);
+  }
+  50%{
+      transform: translateY(-14rem);
+  }
+  100%{
+      transform: translateY(-2rem);
+  }
+}
+
+@keyframes remove-overflow{
+  to{
+      overflow:initial;
+  }
+}
+@keyframes show-overflow {
+  0%{
+      pointer-events: none;
+      overflow: initial;
+  }
+  50%,99%{
+      pointer-events: none;
+      overflow: initial;
+  }
+  100%{
+      overflow: hidden;
+  }
+}
